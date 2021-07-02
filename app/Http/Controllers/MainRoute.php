@@ -25,3 +25,28 @@ class MainRoute extends Controller
         return view('team.web.dev.backend');
     }
 }
+
+
+
+//correction
+// class MainRoute extends Controller
+// {
+//     public function index () {
+//         return view('welcome');
+//     }
+//     public function sav() {
+//         return view('infos.contact.sav');
+//     }
+//     public function info() {
+//         return view('infos.contact.info');
+//     }
+//     public function partenariat() {
+//         return view('infos.contact.partenariat');
+//     }
+//     public function frontPage() {
+//         return view('team.web.dev.frontend');
+//     }
+//     public function backPage() {
+//         return view('team.web.dev.backend');
+//     }
+// }
